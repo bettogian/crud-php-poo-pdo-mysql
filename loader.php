@@ -1,4 +1,6 @@
 <?php
+require_once('env/config.php');
+
 require_once('clases/basemysql.php');
 require_once('clases/Consulta.php');
 require_once('clases/Pelicula.php');

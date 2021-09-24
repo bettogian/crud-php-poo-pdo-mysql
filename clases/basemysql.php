@@ -1,10 +1,12 @@
 <?php
-class BaseMysql{
-    static public function conexion(){
+class BaseMysql {
+
+    static public function conexion() {
+        
         try {
-            $dsn = "mysql:host=localhost;dbname=movies_db;port=3306;charset=utf8mb4";
-            $usuario = "root";
-            $password = "";
+            $dsn = DB_TYPE.":host=".DB_HOST.";dbname=".DB_NAME.";port=3306;charset=".DB_CHARSET;
+            $usuario = DB_USER;
+            $password = DB_PASSWORD;
             //Les recuerdo que para el reconocimiento de los errores de mysql, es que incorpormosr esta línea: 
             $opt = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
 
