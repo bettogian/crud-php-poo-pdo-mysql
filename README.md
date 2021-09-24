@@ -7,4 +7,5 @@ La idea es que tomen este como elemento de arranque ya que deben tener siempre m
 
 ## Espero les resulte de utilidad.
 
-Fuente: https://github.com/danielfuentes
+Este repositorio, es adaptado y con autoria de la siguiente fuente: https://github.com/danielfuentes
+Muchas gracias Daniel!
