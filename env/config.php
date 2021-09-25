@@ -1,6 +1,6 @@
 <?php
 	
-	define('DB_TYPE', "mysql");
+	define('DB_DRIVER', "mysql");
 		
 	define('DB_HOST', "localhost");
 	define('DB_USER', "root");
