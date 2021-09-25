@@ -37,7 +37,7 @@
         <?php require 'partials/navbar.php' ?>
         <div class="spacer"></div>
         <h2 class="text-center">Editar Película</h2>
-       <div class="row mt-5">
+       <div class="mt-5">
             <div class="col-lg-8 offset-lg-2">
                 <form action="" method="post" enctype="multipart/formdata">
                     <div class="form-group">

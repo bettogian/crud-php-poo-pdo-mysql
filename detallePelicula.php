@@ -20,7 +20,7 @@ $pelicula = $consulta->detallePelicula($bd,'movies','genres',$_GET['id']);
     <?php require 'partials/navbar.php' ?>
     <div class="spacer"></div>
     <h2 class="text-center">Detalle de la Película!!!</h2>
-    <div class="row mt-5">
+    <div class="mt-5">
         <div class="col-lg-4 offset-lg-4">
             <div class="card w-100">
                 <img class="card-img-top" src="images/logo.jpg" alt="Foto de la pelicula">
