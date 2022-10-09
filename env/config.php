@@ -2,10 +2,10 @@
 	
 	define('DB_DRIVER', "mysql");
 		
-	define('DB_HOST', "localhost");
-	define('DB_USER', "root");
-	define('DB_PASSWORD', "");
-	define('DB_NAME', "movies_db");
+	define('DB_HOST', "192.254.250.162");
+	define('DB_USER', "artek_user");
+	define('DB_PASSWORD', "#betto!");
+	define('DB_NAME', "artek_pdo");
 
 	define('DB_CHARSET', "utf8mb4");
 	

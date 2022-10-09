@@ -1,0 +1,3 @@
+*.log
+.htaccess
+env/config.php
